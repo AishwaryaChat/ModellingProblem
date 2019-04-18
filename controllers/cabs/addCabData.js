@@ -5,8 +5,10 @@ const fs = require("fs");
 module.exports = (req, res) => {
   const uniqueID = shortid.generate();
   const body = {
-    id: uniqueID,
-    ...req.body
+    assigned: false,
+    type: null,
+    ...req.body,
+    id: uniqueID
   };
   db.cabs.push(body);
   fs.writeFile(
