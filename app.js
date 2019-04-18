@@ -2,7 +2,7 @@ const express = require("express")
 const bodyParser = require('body-parser')
 const handlebars  = require('express-handlebars')
 
-const { addCabData, editCabData } = require('./controllers/cabs')
+const { addCabData, editCabData, assignCab } = require('./controllers/cabs')
 
 const app = express()
 
@@ -14,6 +14,9 @@ app.set('view engine', 'handlebars')
 
 app.post('/cab', addCabData)
 app.put('/cab/:id', editCabData)
+app.get('/cab/assign/:latitude/:longitude/:type', assignCab)
+
+
 app.get('/', function (req, res) {
     res.render('home');
 })

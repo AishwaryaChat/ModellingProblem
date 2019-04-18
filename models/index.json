@@ -5,15 +5,41 @@
       "latitude": "13.1940360",
       "longitude": "77.6498130",
       "assigned": "false",
-      "type": "null"
+      "type": "null",
+      "dist": 15.863515791631768
     },
     {
       "id": "9xOpXyni0",
       "latitude": "13.1935950",
       "longitude": "77.6491150",
       "assigned": "false",
-      "type": "pink"
+      "type": "pink",
+      "dist": 15.82162993342835
+    },
+    {
+      "id": "PfzWVEZ52",
+      "assigned": "false",
+      "type": "pink",
+      "latitude": "13.1944810",
+      "longitude": "77.6506810",
+      "new": "newwwwwwwwww",
+      "dist": 15.908846259793927
+    },
+    {
+      "assigned": true,
+      "type": "pink",
+      "latitude": "12.9747100",
+      "longitude": "77.5866900",
+      "id": "tCmCTovbq",
+      "dist": 0.13141995465370987
+    },
+    {
+      "assigned": "false",
+      "type": null,
+      "latitude": "12.9760140",
+      "longitude": "77.5870650",
+      "id": "GozqasH3e",
+      "dist": 0.2227524306151675
     }
-  ],
-  "users": []
+  ]
 }
