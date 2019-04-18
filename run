@@ -1,0 +1,2 @@
+source dev.sh
+nodemon app.js
