@@ -14,7 +14,7 @@ app.set('view engine', 'handlebars')
 
 app.post('/cab', addCabData)
 app.put('/cab/:id', editCabData)
-app.get('/cab/assign/:latitude/:longitude/:type', assignCab)
+app.put('/cab/assign/:latitude/:longitude/:type', assignCab)
 
 
 app.get('/', function (req, res) {
