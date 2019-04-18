@@ -1,0 +1,19 @@
+{
+  "name": "modellingproblem",
+  "version": "1.0.0",
+  "description": "A modelling app for assignment of cabs for customers",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AishwaryaChat/ModellingProblem.git"
+  },
+  "author": "Aishwarya Chaturvedi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AishwaryaChat/ModellingProblem/issues"
+  },
+  "homepage": "https://github.com/AishwaryaChat/ModellingProblem#readme"
+}
