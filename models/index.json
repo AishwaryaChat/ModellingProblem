@@ -1,4 +1,19 @@
 {
-    "cabs": [],
-    "users": []
+  "cabs": [
+    {
+      "id": "1TVaQkD3L",
+      "latitude": "13.1940360",
+      "longitude": "77.6498130",
+      "assigned": "false",
+      "type": "null"
+    },
+    {
+      "id": "9xOpXyni0",
+      "latitude": "13.1935950",
+      "longitude": "77.6491150",
+      "assigned": "false",
+      "type": "pink"
+    }
+  ],
+  "users": []
 }
